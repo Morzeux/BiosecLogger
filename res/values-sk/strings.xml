@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main activity strings -->
+    <string name="app_name">Biosec Logger</string>
+    <string name="version">1.0b</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="hardwareInfoButtonLabel">Hardvér zariadenia</string>
+    <string name="createTemplateButtonLabel">Vytvoriť šablónu</string>
+    <string name="mainImageDes">Obrázok v hlavnom menu</string>
+
+    <color name="goodColor">#599653</color>
+    <color name="badColor">#dc143c</color>
+    
+    <!-- Hardware Info activity strings -->
+    <string name="title_activity_device_info">Informácie zariadenia</string>
+    <string name="phoneModelLabel">Model zariadenia:</string>
+    <string name="androidVersionLabel">Verzia Androidu:</string>
+    <string name="cpuTextLabel">CPU:</string>
+    <string name="displaySizeLabel">Veľkosť displeja:</string>
+    <string name="batteryLevelLabel">Stav batérie: </string>
+    <string name="internalSpaceLabel">Interná kapacita: </string>
+    <string name="externalSpaceLabel">Externá kapacita: </string>
+    <string name="memoryUsageLabel">Pamäť: </string>
+    <string name="implicit">NULL</string>
+
+    <!-- Create Template activity strings -->
+    <string name="title_activity_create_template">Vytvorenie šablóny</string>
+    <string name="usernameTextHint">Meno</string>
+    <string name="passwordTextHint">Heslo</string>
+    <string name="submitButtonText">Potvrdiť</string>
+
+    <!-- About activity strings -->
+    <string name="title_activity_about">O aplikácií</string>
+    <string name="aboutButtonLabel">O aplikácií</string>
+    <string name="aboutAppText"> je môj bakalársky výskumný projekt zameraný na identifikáciu na základe dynamiky písania. Základ aplikácie je zameraný na získavanie logov používateľa, ktoré sa následne použijú na jeho identifikáciu. Aplikácia je schopná do určitej úrovne vyhodnotiť, či sa jedná o skutočného, alebo cudzieho používateľa s prístupovými údajmi.</string>
+    <string name="copyrightText">Copyright (2014)</string>
+    <string name="myName">Štefan Šmihla</string>
+    <string name="superVisorLabel">Vedúci práce</string>
+    <string name="mySupervisor">Doc. Daniela Chudá, PhD</string>
+    <string name="myFaculty">Fakulta informatiky a informačných technológií</string>
+    <string name="myUniversity">Slovenská technická univerzita v Bratislave</string>
+    <string name="versionText">Verzia</string>
+    
+    <string name="title_activity_user_login">Prihlásenie používateľa</string>
+    <string name="loginUserButton">Prihlásenie</string>
+
+    <!-- FeedBack activity strings -->
+    <string name="title_activity_feedback">Dotazník</string>
+    <string name="feedbackButtonLabel">Dotazník</string>
+    <string name="skillLabel">Zručnosť so smartfónom</string>
+    <string name="handLabel">Dominantná hemisféra</string>
+    <string name="ageLabel">Vek používateľa</string>
+    <string name="environmentLabel">Dynamika prostredia</string>
+    <string name="customMessageLabel">Pripomienky a nápady</string>
+    <string name="emotionLabelText">Nálada používateľa</string>
+
+    <string-array name="userSkills">
+        <item>Začiatočník</item>
+        <item>Mierne pokročilý</item>
+        <item>Pokročilý</item>
+    </string-array>
+    <string-array name="brainHemisphere">
+        <item>Pravák</item>
+        <item>Ľavák</item>
+    </string-array>
+    <string-array name="age">
+        <item>14 a menej</item>
+        <item>15 až 19</item>
+        <item>20 až 30</item>
+        <item>30 až 40</item>
+        <item>40 až 50</item>
+        <item>51 a viac</item>
+    </string-array>
+    <string-array name="environment">
+        <item>Bez pohybu</item>
+        <item>Drobný pohyb</item>
+        <item>Pohyblivé</item>
+        <item>Rušné</item>
+    </string-array>
+    <string-array name="emotion">
+        <item>Negatívna</item>
+        <item>Mierne negatívna</item>
+        <item>Neutrálna</item>
+        <item>Mierne pozitívna</item>
+        <item>Pozitívna</item>
+    </string-array>
+
+    <string name="sendMailButtonLabel">Odoslať výsledky</string>
+    <string name="title_activity_analyze">Analyzátor</string>
+    <string name="analyzeButtonLabel">Analyzovať</string>
+    
+    <string name="algorithmLabel">Algoritmus</string>
+    <string-array name="algorithm">
+        <item>Štatistické T-testy</item>
+        <item>Manhattanská vzdialenosť</item>
+        <item>Euklidovská vzdialenosť</item>
+    </string-array>
+    <string name="graphsLabelText">N-grafy</string>
+    <string name="pThreholdLabel">P-Threshold</string>
+    <string name="sensitivityLabel">Citlivosť</string>
+    <string name="testButtonLabel">Testovať</string>
+    <string name="flyingTimesCheckLabel">Čas letu</string>
+    <string name="acceleratorCheckLabel">Akcelerátor</string>
+    <string name="orientationCheckLabel">Orientácia</string>
+    <string name="errorRateCheckLabel">Chybovosť</string>
+    <string name="substitutionCheckLabel">Špec. znaky</string>
+    <string name="evaluationLabel">Vyhodnocovať:</string>
+    <string name="saveResultsButtonLabel">Uložiť výsledky</string>
+    <string name="viewSamplesButtonLabel">Prezerať</string>
+
+    <!-- Visualization -->
+    <string name="details">Detaily</string>
+    <string name="xLabelBar">používatelia</string>
+    <string name="yLabelBar">%</string>
+    <string name="titleBar">FAR a FRR individuálne</string>
+    <string name="forText">pre</string>
+    <string name="xLabelLine">znaky</string>
+    <string name="yLabelLineTime">ms</string>
+    <string name="yLabelLineSpd">m/s</string>
+    <string name="yLabelLineDec">°</string>
+    
+    <string name="userIndividualLabel">Individuálne vzorky</string>
+    <string name="averagesLabel">Priemerné vektory</string>
+    <string name="deviationLabel">Štd. odchýlky</string>
+    <string name="simplePhrase">Ľahká fráza</string>
+    <string name="complexPhrase">Zložitá fráza</string>
+    <string name="userLabel">Používatelia</string>
+    <string name="bioCharacteristicLabel">Charakteristiky</string>
+    <string name="grubbsCleanUpLabel">Grubbov test</string>
+    <string name="experimentalSamplesLabel">Experimentálne vzorky</string>
+    <string-array name="characteristics">
+        <item>Latencia medzi znakmi</item>
+        <item>Akcelerácia na ose X</item>
+        <item>Akcelerácia na ose Y</item>
+        <item>Akcelerácia na ose Z</item>
+        <item>Orientácia na ose X</item>
+        <item>Orientácia na ose Y</item>
+        <item>Orientácia na ose Z</item>
+    </string-array>
+    <string name="showButtonLabel">Zobraziť</string>
+    <string name="loadingSamples">Načítavam&#8230;</string>
+    
+    <!-- Settings -->
+    <string name="title_activity_settings">Nastavenia</string>
+    <string name="settingsButtonLabel">Nastavenia</string>
+    <string name="createCountLabel">Vytvorenie šablóny</string>
+    <string name="createCountDesc">Nastavenie počtu vzoriek potrebných na vytvorenie šablóny.</string>
+    <string name="holdCountLabel">Udržiavanie šablóny</string>
+    <string name="holdCountDesc">Nastavenie maximalného počtu vzoriek, ktoré je šablóna schopná udržiavať.</string>
+    <string name="externalSavingLabel">Externé úložisko</string>
+    <string name="externalSavingDesc">Povoliť ukladanie na externé úložisko.</string>
+    
+	<!-- Other -->
+	<string name="nullString"></string>
+	<string name="infoDialogTitle">Informačné okno</string>
+	<string name="templateCompleteText">Šablóna bola úspešne vytvorená!</string>
+	<string name="closeButtonLabel">Zavrieť</string>
+	<string name="emptyPasswordError">Prázdne meno alebo heslo! Prosím skúste znovu.</string>
+	<string name="wrongPasswordError">Zlé prihlasovanie meno alebo heslo! Prosím skúste znovu.</string>
+	<string name="existingUserError">Používateľ už existuje! Prosím skúste iné meno.</string>
+	<string name="readableSdCard">Externé úložisko nie je zapisovateľné.</string>
+	<string name="noSdCard">Externé úložisko nie je dostupné.</string>
+	<string name="loginSuccess">Prihlásenie prebehlo úspešne.</string>
+	<string name="patternMismatch">Pravdepodobne cudzí používateľ.</string>
+	<string name="samplesSaved">uložených vzoriek.</string>
+	<string name="feedbackSaved">Feedback sa uložil, ďakujem za pomoc.</string>
+	<string name="feedbackError">Feedback sa neuložil. Skontrolujte prosím prístup na pamätovú kartu.</string>
+	<string name="wrongAlgorithm">Nesprávny algoritmus</string>
+	<string name="testing">Testujem&#8230;</string>
+	<string name="fileSaved">Súbor XXXX bol úspešne uložený.</string>
+	<string name="savingError">Nastala chyba pri ukladaní!</string>
+	<string name="openDataError">Chyba pri otváraní dát o používateľovi!</string>
+	<string name="saveDataError">Chyba pri ukladaní dát o používateľovi!</string>
+	<string name="easyPassword">Jednoduché heslo</string>
+	<string name="strongPassword">Zložité heslo</string>
+	<string name="download">Stiahnúť</string>
+	<string name="yes">Áno</string>
+	<string name="no">Nie</string>
+	<string name="newSamples">Nové vzorky sú dostupné na stiahnutie. Prajete si ich stiahnúť teraz?</string>
+	<string name="noSamples">Nie sú k dispozícií žiadne vzorky na analýzu. Prajete si ich stiahnúť teraz?</string>
+	<string name="downloadFailed">Vzorky nebolo možné stiahnúť.</string>
+	<string name="downloadSuccess">Vzorky boli úspešne stiahnuté.</string>
+	<string name="sendFailed">Výsledky sa nepodarilo odoslať.</string>
+	<string name="sendSuccess">Výsledky boli úspešne odoslané.</string>
+	<string name="downloading">Sťahujem vzorky&#8230;</string>
+	<string name="sending">Odosielam výsledky&#8230;</string>
+	
+	<string name="percent">%</string>
+	<string name="title_activity_samples_overview">Prezeranie vzoriek</string>
+</resources>

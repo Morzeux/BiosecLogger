@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- About activity -->
+    <string name="WEBVIEW_FORMAT">&lt;html&gt;&lt;body style="text-align:justify"&gt; %s &lt;/body&gt;&lt;/html&gt;</string>
+    
+    <!-- Device info activity -->
+    <integer name="KB" type="Const">1024</integer>
+    <integer name="MB">1048576</integer>
+    <integer name="SLEEP_MILISEC">1000</integer>
+    <string name="CPUINFO_FILE">/proc/cpuinfo</string>
+    <string name="CPUMAXFREQ_FILE">/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq</string>
+    <string name="MEMINFO_FILE">/proc/meminfo</string>
+    <string name="REGEX_NONDIGITS">[\\D]</string>
+    
+    <!-- Settings activity -->
+    <bool name="INTERNAL_REMOVE">false</bool>
+    <bool name="SAVE_EXTERNAL">true</bool>
+    <integer name="CREATE_COUNT">20</integer>
+    <integer name="HOLD_COUNT">50</integer>
+    <string name="SERVER_URL">http://biosecloggerserver-morzeux.rhcloud.com</string>
+    
+    <!-- Feedback activity -->
+    <string name="FEEDBACK_NAME">feedback.log</string>
+    
+    <!-- Email Sender activity -->
+    <string name="EMAIL_ALIAS">Biosec Logger</string>
+    <string name="EMAIL_USERNAME"></string>
+    <string name="EMAIL_PASSWORD"></string>
+    <string name="SUBJECT">[BP] Results</string>
+    <string name="RECIPIENTS"></string>
+    <string name="BODY"></string>
+    <string name="ATTACHMENT">user_biometrics</string>
+    
+    <!-- Analyzer activity -->
+    <string name="RESULTS_FILE">results.log</string>
+    <string name="BIOSEC_DATA">biosec_data</string>
+</resources>

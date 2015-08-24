@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference 
+        android:title="@string/createCountLabel"
+        android:key="createCount"
+        android:inputType="number"
+        android:summary="@string/createCountDesc"
+        />
+    
+    <EditTextPreference 
+        android:title="@string/holdCountLabel"
+        android:key="holdCount"
+        android:inputType="number"
+        android:summary="@string/holdCountDesc"
+        />
+    
+    <CheckBoxPreference
+        android:title="@string/externalSavingLabel"
+        android:key="extenalSaving"
+        android:summary="@string/externalSavingDesc"
+        android:defaultValue="true" />
+</PreferenceScreen>
+   

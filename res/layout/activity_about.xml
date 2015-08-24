@@ -1,0 +1,35 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false" >
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="363dp"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".AboutActivity" >
+
+	    <TextView
+	        android:id="@+id/algorithmLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/aboutButtonLabel"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <WebView
+	        android:id="@+id/webView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/algorithmLabel"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="17dp" />
+	</RelativeLayout>
+
+</ScrollView>

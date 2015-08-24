@@ -1,0 +1,8 @@
+biosecLogger.analysis
+biosecLogger.charts
+biosecLogger.core
+biosecLogger.exceptions
+com.morzeux.bioseclogger
+com.morzeux.bioseclogger.logic
+com.morzeux.bioseclogger.tasks
+com.morzeux.bioseclogger.thirdParty

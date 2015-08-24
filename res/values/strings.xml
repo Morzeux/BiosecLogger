@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main activity strings -->
+    <string name="app_name">Biosec Logger</string>
+    <string name="version">0.1b</string>
+    <string name="action_settings">Settings</string>
+    <string name="hardwareInfoButtonLabel">Hardware Info</string>
+    <string name="createTemplateButtonLabel">Create template</string>
+    <string name="mainImageDes">Main menu image</string>
+
+    <color name="goodColor">#599653</color>
+    <color name="badColor">#dc143c</color>
+
+    <!-- Hardware Info activity strings -->
+    <string name="title_activity_device_info">Hardware Information</string>
+    <string name="phoneModelLabel">Phone model:</string>
+    <string name="androidVersionLabel">Android version:</string>
+    <string name="cpuTextLabel">CPU:</string>
+    <string name="displaySizeLabel">Display size: </string>
+    <string name="batteryLevelLabel">Battery level: </string>
+    <string name="internalSpaceLabel">Internal memory: </string>
+    <string name="externalSpaceLabel">External memory: </string>
+    <string name="memoryUsageLabel">Memory: </string>
+    <string name="implicit">NULL</string>
+
+    <!-- Create Template activity strings -->
+    <string name="title_activity_create_template">Create template</string>
+    <string name="usernameTextHint">Name</string>
+    <string name="passwordTextHint">Password</string>
+    <string name="submitButtonText">Submit</string>
+
+    <!-- About activity strings -->
+    <string name="title_activity_about">About Application</string>
+    <string name="aboutButtonLabel">About</string>
+    <string name="aboutAppText"> is my bachelor research project focused on keystroke dynamics. Application is based on getting user logs which will be used for authentication. Application is able to decide if user is correct user or unauthorized person with stolen password.</string>
+    <string name="copyrightText">Copyright (2014)</string>
+    <string name="myName">Štefan Šmihla</string>
+    <string name="mySupervisor">Assoc. Professor Daniela Chudá</string>
+    <string name="superVisorLabel">Supervisor</string>
+    <string name="myFaculty">Faculty of Informatics and Information Technologies</string>
+    <string name="myUniversity">Slovak University of Technology in Bratislava</string>
+    <string name="versionText">Version</string>
+    
+    <string name="title_activity_user_login">User login</string>
+    <string name="loginUserButton">Login</string>
+
+    <!-- FeedBack activity strings -->
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="feedbackButtonLabel">Feedback</string>
+    <string name="skillLabel">Skill with smartphone</string>
+    <string name="handLabel">Dominant hemisphere</string>
+    <string name="ageLabel">User\'s age</string>
+    <string name="environmentLabel">Environment\'s dynamics</string>
+    <string name="customMessageLabel">Comment</string>
+    <string name="emotionLabelText">User\'s mood</string>
+
+    <string-array name="userSkills">
+        <item>Beginner</item>
+        <item>Slightly advanced</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="brainHemisphere">
+        <item>Right handed</item>
+        <item>Left handed</item>
+    </string-array>
+    <string-array name="age">
+        <item>14 and less</item>
+        <item>from 15 to 19</item>
+        <item>from 20 to 30</item>
+        <item>from 30 to 40</item>
+        <item>from 40 to 50</item>
+        <item>51 and more</item>
+    </string-array>
+    <string-array name="environment">
+        <item>Motionless</item>
+        <item>Small motion</item>
+        <item>Moving</item>
+        <item>Heavy traffic</item>
+    </string-array>
+    <string-array name="emotion">
+        <item>Negative</item>
+        <item>Slightly negative</item>
+        <item>Neutral</item>
+        <item>Slightly positive</item>
+        <item>Positive</item>
+    </string-array>
+
+    <string name="sendMailButtonLabel">Send results</string>
+    <string name="title_activity_analyze">Analyser</string>
+    <string name="analyzeButtonLabel">Analyse</string>
+    <string name="algorithmLabel">Algorithm</string>
+
+    <string-array name="algorithm">
+        <item>Statistical T-tests</item>
+        <item>Manhattan distance</item>
+        <item>Euclidean distance</item>
+    </string-array>
+
+    <string name="graphsLabelText">N-graphs</string>
+    <string name="pThreholdLabel">P-Threshold</string>
+    <string name="sensitivityLabel">Sensitivity</string>
+    <string name="testButtonLabel">Test</string>
+    <string name="flyingTimesCheckLabel">Flying times</string>
+    <string name="acceleratorCheckLabel">Accelerator</string>
+    <string name="orientationCheckLabel">Orientation</string>
+    <string name="errorRateCheckLabel">Error rate</string>
+    <string name="substitutionCheckLabel">Spec. chars</string>
+    <string name="evaluationLabel">Evaluate:</string>
+    <string name="saveResultsButtonLabel">Save results</string>
+    <string name="viewSamplesButtonLabel">Overview</string>
+
+    <!-- Visualization -->
+    <string name="details">Details</string>
+    <string name="xLabelBar">users</string>
+    <string name="yLabelBar">%</string>
+    <string name="titleBar">FAR and FRR by user</string>
+    <string name="forText">for</string>
+    <string name="xLabelLine">characters</string>
+    <string name="yLabelLineTime">ms</string>
+    <string name="yLabelLineSpd">m/s</string>
+    <string name="yLabelLineDec">°</string>
+    
+    <string name="userIndividualLabel">Individual samples</string>
+    <string name="averagesLabel">Average vectors</string>
+    <string name="deviationLabel">Std. deviations</string>
+    <string name="simplePhrase">Simple phrase</string>
+    <string name="complexPhrase">Strong phrase</string>
+    <string name="userLabel">Users</string>
+    <string name="bioCharacteristicLabel">Characteristics</string>
+    <string name="grubbsCleanUpLabel">Grubbs test</string>
+    <string name="experimentalSamplesLabel">Experimental samples</string>
+    <string-array name="characteristics">
+        <item>Flying times</item>
+        <item>Acceleration X axis</item>
+        <item>Acceleration Y axis</item>
+        <item>Acceleration Z axis</item>
+        <item>Orientation X axis</item>
+        <item>Orientation Y axis</item>
+        <item>Orientation Z axis</item>
+    </string-array>
+    <string name="showButtonLabel">Show</string>
+    <string name="loadingSamples">Loading&#8230;</string>
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="settingsButtonLabel">Settings</string>
+    <string name="createCountLabel">Create template</string>
+    <string name="createCountDesc">Number of samples needed for new template.</string>
+    <string name="holdCountLabel">Hold template</string>
+    <string name="holdCountDesc">Number of maximum samples for existing template.</string>
+    <string name="externalSavingLabel">External storage</string>
+    <string name="externalSavingDesc">Allow saving to external storage.</string>
+
+    <!-- Other -->
+    <string name="nullString"></string>
+    <string name="infoDialogTitle">Information Dialog</string>
+    <string name="templateCompleteText">Template has been successfully created!</string>
+    <string name="closeButtonLabel">Close</string>
+    <string name="emptyPasswordError">Empty name or password! Please try enter again.</string>
+    <string name="wrongPasswordError">Invalid name or password! Please try enter again.</string>
+    <string name="existingUserError">Username already exists! Please try different name.</string>
+    <string name="readableSdCard">External storage is read only.</string>
+    <string name="noSdCard">External storage is not available.</string>
+    <string name="loginSuccess">Login has been successful.</string>
+    <string name="patternMismatch">Probably unauthorized person.</string>
+    <string name="samplesSaved">saved samples.</string>
+    <string name="feedbackSaved">Feedback has been successfully saved.</string>
+    <string name="feedbackError">Feedback has not been saved. Please check your access to memory card.</string>
+    <string name="wrongAlgorithm">Wrong algorithm.</string>
+    <string name="testing">Testing&#8230;</string>
+    <string name="fileSaved">File XXXX has been successfully saved.</string>
+    <string name="savingError">Saving error!</string>
+    <string name="openDataError">Error during opening user\'s data!</string>
+    <string name="saveDataError">Error during saving user\'s data!</string>
+    <string name="easyPassword">Simple password</string>
+    <string name="strongPassword">Strong password</string>
+    <string name="download">Download</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="newSamples">New samples are avalaible to download. Would you like to download them now?</string>
+    <string name="noSamples">No samples are avalaible. Would you like to download them now?</string>
+    <string name="downloadFailed">Unable to download samples.</string>
+    <string name="downloadSuccess">Samples has been downloaded successfully.</string>
+    <string name="sendFailed">Unable to send samples.</string>
+    <string name="sendSuccess">Samples has been sent.</string>
+    <string name="downloading">Downloading samples&#8230;</string>
+    <string name="sending">Sending samples&#8230;</string>
+    <string name="percent">%</string>
+    <string name="title_activity_samples_overview">Samples Overview</string>
+
+</resources>

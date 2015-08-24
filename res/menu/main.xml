@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/saveResultsButton" 
+        android:title="@string/saveResultsButtonLabel" 
+        android:visible="false" />
+    
+    <item 
+        android:id="@+id/deviceInfoButton"
+        android:showAsAction="never" 
+        android:title="@string/hardwareInfoButtonLabel" />
+    
+    <item
+        android:id="@+id/settingsButton"
+        android:showAsAction="never"
+        android:title="@string/settingsButtonLabel"/>
+    
+    <item
+        android:id="@+id/aboutButton"
+        android:showAsAction="never"
+        android:title="@string/aboutButtonLabel"/>
+    
+    
+
+</menu>
